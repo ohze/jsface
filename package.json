@@ -1,9 +1,9 @@
 {
-  "name": "jsface",
+  "name": "@ohze/jsface",
   "main": "jsface.js",
   "description": "Small, fast, elegant, powerful, and cross platform JavaScript OOP library. Support main, singleton, super call, private, mixins, plugins, AOP and more.",
   "author": "Tan Nhu <tnhu AT me . com>",
-  "version": "2.4.10",
+  "version": "2.4.11",
   "keywords": [
     "jsface",
     "JSFace",
@@ -13,26 +13,27 @@
     "AOP",
     "Aspect Oriented Programming"
   ],
-  "homepage": "https://github.com/tnhu/jsface",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/tnhu/jsface/blob/master/LICENSE.txt"
-    }
-  ],
+  "homepage": "https://github.com/ohze/jsface#readme",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "phantomjs test/run-qunit.js test/index.html"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tnhu/jsface.git"
+    "url": "git+https://github.com/ohze/jsface.git"
   },
-  "engines": {
-    "node": ">=0.4.0"
+  "bugs": {
+    "url": "https://github.com/tnhu/jsface/issues"
   },
   "dependencies": {},
   "devDependencies": {
-    "del": "^1.2.0",
-    "gulp": "^3.9.0",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.2.0",
-    "run-sequence": "^1.1.2"
+    "gulp-uglify": "^3.0.2",
+    "gulp4-run-sequence": "^0.3.2"
   }
 }

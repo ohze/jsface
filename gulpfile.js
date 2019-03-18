@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 var del = require('del');
 var uglify = require('gulp-uglify');
-var runSequence = require('run-sequence');
+var runSequence = require('gulp4-run-sequence');
 var rename = require('gulp-rename');
 
 gulp.task('copy', function() {
